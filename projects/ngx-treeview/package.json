@@ -1,6 +1,6 @@
 {
-  "name": "ngx-treeview",
-  "version": "10.0.2",
+  "name": "@ash-mezdo/ngx-treeview",
+  "version": "14.2.3",
   "license": "MIT",
   "description": "An Angular treeview component with checkbox",
   "keywords": [
@@ -8,6 +8,7 @@
     "ngx",
     "angular",
     "ngx-treeview",
+    "angular 14",
     "tree",
     "treeview",
     "tree-view",
@@ -16,20 +17,21 @@
     "recursive",
     "angular tree component"
   ],
-  "author": "Leo Vo <leovo2708@gmail.com>",
+  "author": "Ash Mezdo",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leovo2708/ngx-treeview.git"
+    "url": "git+https://github.com/ash-mezdo/ngx-treeview.git"
   },
   "bugs": {
-    "url": "https://github.com/leovo2708/ngx-treeview/issues"
+    "url": "https://github.com/ash-mezdo/ngx-treeview/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^10.0.0",
-    "@angular/core": "^10.0.0",
+    "@angular/common": "^14.2.3",
+    "@angular/core": "^14.2.3",
     "lodash": "^4.0.0"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
-  }
+    "tslib": "^2.4.0"
+  },
+  "homepage": "https://github.com/ash-mezdo/ngx-treeview#readme"
 }
