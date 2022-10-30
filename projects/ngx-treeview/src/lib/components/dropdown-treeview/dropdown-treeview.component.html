@@ -1,5 +1,5 @@
 <div class="dropdown" ngxDropdown>
-  <button class="btn" [ngClass]="buttonClass" type="button" role="button" ngxDropdownToggle>
+  <button class="btn" [ngClass]="buttonClass" type="button" role="button" ngxDropdownToggle [caretClass]="caretClass">
     {{buttonLabel}}
   </button>
   <div ngxDropdownMenu aria-labelledby="dropdownMenu" (click)="$event.stopPropagation()">

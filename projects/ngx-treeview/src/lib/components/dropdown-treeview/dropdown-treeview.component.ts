@@ -1,4 +1,4 @@
-﻿import { Component, EventEmitter, Input, Output, ViewChild, TemplateRef } from '@angular/core';
+﻿import { Component, EventEmitter, Input, Output, ViewChild, TemplateRef, OnInit } from '@angular/core';
 import { TreeviewI18n } from '../../models/treeview-i18n';
 import { TreeviewItem } from '../../models/treeview-item';
 import { TreeviewConfig } from '../../models/treeview-config';
@@ -14,6 +14,7 @@ import { DropdownDirective } from '../../directives/dropdown.directive';
 })
 export class DropdownTreeviewComponent {
   @Input() buttonClass = 'btn-outline-secondary';
+  @Input() caretClass: string;
   @Input() headerTemplate: TemplateRef<TreeviewHeaderTemplateContext>;
   @Input() itemTemplate: TemplateRef<TreeviewItemTemplateContext>;
   @Input() items: TreeviewItem[];

@@ -1,6 +1,6 @@
 {
   "name": "@ash-mezdo/ngx-treeview",
-  "version": "14.2.3",
+  "version": "14.2.4",
   "license": "MIT",
   "description": "An Angular treeview component with checkbox",
   "keywords": [

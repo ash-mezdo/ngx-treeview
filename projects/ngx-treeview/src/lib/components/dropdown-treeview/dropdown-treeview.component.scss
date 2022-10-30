@@ -20,3 +20,7 @@
     }
   }
 }
+
+.disable-bootstrap-caret.dropdown-toggle::after {
+  visibility: hidden;
+}
